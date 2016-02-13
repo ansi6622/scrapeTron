@@ -32,7 +32,7 @@ request(url, function (error, response, body) {
 text.split(" ").forEach(function (word) {
   // We don't want to include very short or long words because they're
   // probably bad data.
-  if (word.length  20) {
+  if (word.length > 20) {
     return;
   }
 
