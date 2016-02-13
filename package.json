@@ -1,0 +1,15 @@
+{
+  "name": "scrapetron",
+  "version": "1.0.0",
+  "description": "First internet siphon",
+  "main": "tron.js",
+  "dependencies": {
+    "request": "^2.69.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "tronSimpson",
+  "license": "ISC"
+}
