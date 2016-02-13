@@ -1,6 +1,6 @@
 var request = require("request"),
   cheerio = require("cheerio"),
-  url = "https://www.google.com/search?q=love",
+  url = "https://www.google.com/search?q=mustard",
   corpus = {},
   totalResults = 0,
   resultsDownloaded = 0;
