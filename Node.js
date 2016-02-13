@@ -1,6 +1,6 @@
 var request = require("request"),
 	cheerio = require("cheerio"),
-	url = "https://www.google.com/search?q=apple+stocks",
+	url = "https://www.google.com/search?q=justin+bieber",
 	corpus = {},
 	totalResults = 0,
 	resultsDownloaded = 0;
@@ -47,7 +47,7 @@ request(url, function (error, response, body) {
 					   .replace(/[^a-zA-Z ]/g, " ")
 					   .toLowerCase();
 			text.split(" ").forEach(function (word) {
-				if (word.length < 6 || word.length > 14) {
+				if (word.length < 5 || word.length > 14) {
 					return;
 				}
 				if (corpus[word]) {
